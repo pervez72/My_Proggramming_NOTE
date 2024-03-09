@@ -1,5 +1,6 @@
 {
     "files.associations": {
+
         "any": "cpp",
         "array": "cpp",
         "atomic": "cpp",
@@ -86,6 +87,11 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
+
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "random": "cpp"
+
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
