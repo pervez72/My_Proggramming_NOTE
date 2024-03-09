@@ -20,4 +20,16 @@ protected - members cannot be accessed from outside the class, however, they can
                obj.a=10; // data insert  
             }
 
-* 
+* Class Scop Resulation : jast put the defination method/function into the class.and access  outside.  
+            
+            myclass{
+                public:
+                   int sum();
+                }
+
+            function_datatype myclass::sum(){
+
+                code;
+            }
+
+*
