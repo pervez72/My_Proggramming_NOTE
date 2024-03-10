@@ -17,14 +17,15 @@ int main(){
         }
         
         min=a[0];
+        int index=0;
         for (int i=0; i<n; i++)
         {
-           if(a[i]>min){
+           if(a[i]<min){
             min=a[i];
             index=i;
            }
         }
       
-        cout<<min<<//" "<<index;      
+        cout<<min<<" "<<index+1;  
  }
 }

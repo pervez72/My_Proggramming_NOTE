@@ -11,7 +11,7 @@
 
 
 *******************Array******************
-* Array Condition based input =
+* Array Condition based input get=
         for (int i=0; i<n; i++)
         {
             cin>>ar[i]; // input value
@@ -21,4 +21,7 @@
             }
         }
 
+* Array specefic inedex get rule:
+    //must be first declear 
+    int index=0; then apply this line
 * 
