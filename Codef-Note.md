@@ -22,6 +22,9 @@
         }
 
 * Array specefic inedex get rule:
-    //must be first declear 
-    int index=0; then apply this line
+    //must be first declear int index=0; 
+    then apply this line otherwise store garbase value; 
+
 * 
+
+

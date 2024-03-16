@@ -2,35 +2,33 @@
 using namespace std;
 
 int main(){
-     int n;
-     cin>>n;
-     int ar[n];
-     if (n>=2 && n<=1000)
-     {
-        for (int i=0; i <n; i++)
+
+    int n,i,j;
+    cin>>n;
+    if (n>=1 && n<=1000)
+    {
+         long long a[n],b[n];
+        for (i=0; i<n; i++)
         {
-            cin>>ar[i];
-            if (ar[i]>=-pow(10,5) && ar[i]<=pow(10,5))
-            {
-                ar[i]=ar[i];
-            }
-            
+           cin>>a[i];
+           if(a[i]>=0 && a[i]<=pow(10,9)){
+            a[i]=a[i]; //input a
+           }
         }
 
-        for (int i=0; i<n; i++)
+        for (i=n-1,j=0; i>=0; i--,j++)
         {
-            if(ar[i]<0){
-                cout<<"2"<<" ";
-            }
-            if(ar[i]==0){
-               cout<<"0"<<" ";
-            }
-            if(ar[i]>0){
-                cout<<"1"<<" ";
-            }
+         b[j]=a[i];
         }
         
+        for (j=0; j<n; j++)
+        {
+         
+         cout<<b[j];
+         if(j!=n-1){
+            cout<<" ";
+         }
+        }
         
-     }
-     
+}
 }
